@@ -10,7 +10,7 @@ from langchain.chains import RetrievalQA
 # Set OpenAI API key from Streamlit secrets
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
-PDF_PATH = "bloomberggpt.pdf"
+PDF_PATH = "/Users/tarikhadi/Desktop/untitled folder/bloomberggpt.pdf"
 
 # Load PDF and split into smart chunks
 def load_pdf(pdf_path):
